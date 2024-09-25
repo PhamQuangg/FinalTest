@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffcc66;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orange;
+}
+
+.search {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.movie-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-modal {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.modal-image {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.modal-details {
+  padding-left: 20px;
+}
+
+.play-btn {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #1246f3; 
+  border: none; 
+  padding: 10px 20px; 
+  margin: 0 10px; 
+  color: white; 
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.pagination button:hover {
+  background-color: #e67e22; 
+}
+
+.pagination button:disabled {
+  background-color: #bdc3c7; 
+  cursor: not-allowed;
+}
